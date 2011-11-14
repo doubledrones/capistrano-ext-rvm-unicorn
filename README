@@ -1,1 +1,15 @@
 Capistrano recipes to support unicorn server installed on RVM.
+
+Usage:
+
+  # In your Gemfile add:
+  group :development do
+    gem 'capistrano-ext-rvm-unicorn'
+  end
+
+  # In your config/deploy.rb add:
+  set :unicorn_config, "#{current_path}/config/unicorn.rb"
+  set :unicorn_pid, "#{shared_path}/pids/unicorn.pid"
+  require 'capistrano/ext/rvm-unicorn'
+
+  # Most important: enjoy :)
