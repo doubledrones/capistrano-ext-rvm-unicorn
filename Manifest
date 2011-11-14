@@ -1,0 +1,7 @@
+CHANGELOG.rdoc
+MIT-LICENSE
+Manifest
+README
+Rakefile
+lib/capistrano/ext/rvm-unicorn.rb
+lib/capistrano/ext/version.rb

@@ -1,0 +1,12 @@
+== (unreleased)
+
+* add description in README
+* add MIT license
+
+== 0.0.1 (November 14, 2011)
+
+* add 'cap deploy:start'
+* add 'cap deploy:stop'
+* add 'cap deploy:graceful_stop'
+* add 'cap deploy:reload'
+* add 'cap deploy:restart'
